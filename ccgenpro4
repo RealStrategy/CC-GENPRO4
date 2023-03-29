@@ -85,7 +85,7 @@ def main():
         elif option == "3":
             os.system('clear')
             print("Ingresando al Generador de Nombres y Apellidos...")
-            time.sleep(2)
+            time.sleep(1)
             os.system('cd Nombres ; python3 generador')
             input("Presione Enter para continuar...")
         elif option == "4":
