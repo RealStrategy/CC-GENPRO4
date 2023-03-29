@@ -1,6 +1,5 @@
 import random
 import os
-import time
 from datetime import datetime
 from colorama import init, Fore, Back, Style
 
@@ -89,8 +88,6 @@ def main():
             os.system('python3 .gencc.py')
             input("Presione Enter para continuar...")
         elif option == "3":
-            print("Ingresando al Generador de Nombres y Apellidos...")
-            time.sleep(1)
             os.system('cd Nombres ; python3 generador')
             input("Presione Enter para continuar...")
         elif option == "4":
