@@ -5,10 +5,10 @@ Generador de tarjetas de credito que usa el algoritmo de Luhn. Se agregaron herr
 
 REQUERIMIENTOS
 
-- sudo apt install python3
-- sudo apt install git
-- sudo apt-get install python3-pip
-- sudo pip3 install requests
+- apt install python3
+- apt install git
+- apt-get install python3-pip
+- pip3 install requests
 - pip3 install colorama
 
 INSTALACION
