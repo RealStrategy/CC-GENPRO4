@@ -121,7 +121,7 @@ def main():
              print("")
              input("Presione Enter para continuar...") 
         elif option == "6":
-            print(Fore.RED + "\n¡Recuerda que estamos de manera ONLINE en https://cc-genpro.com/ :)!\n")
+            print(Fore.GREEN + "\n¡Recuerda que estamos de manera ONLINE en https://cc-genpro.com/ :)!\n")
             break
         else:
             print(Fore.RED + "\nOpción no válida. Por favor, seleccione una opción válida.\n")
