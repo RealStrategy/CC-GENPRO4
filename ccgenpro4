@@ -7,7 +7,7 @@ from colorama import init, Fore, Back, Style
 init(autoreset=True)
 def generate_credit_card_number(bin_format):
     out_cc = ""
-    # Cambiar x por numeros
+
     for i in range(15):
         if bin_format[i] in ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"):
             out_cc += bin_format[i]
@@ -45,8 +45,15 @@ def card_luhn_checksum_is_valid(card_number):
 def main():
     while True:
         os.system('clear')
-        print(Fore.YELLOW + "\nCC-GENPRO V4.0")
-        print("")
+        print("********************************************")
+        print("*        *         CC-GENPRO V4.0          *")
+        print("*        *                                 *")
+        print("*  VISA  *       1234 5678 9012 3456       *")
+        print("*        *                                 *")
+        print("*        *           Alan Brito            *")
+        print("*        *           05/26                 *")
+        print("*        *                                 *")
+        print("********************************************")
         print(Fore.RED + "1." + Fore.GREEN + " Generador de CC por BIN" + Fore.RESET)
         print(Fore.RED + "2." + Fore.GREEN + " Generador de tarjetas de Credito" + Fore.RESET)
         print(Fore.RED + "3." + Fore.GREEN + " Generador Nombres y apellidos" + Fore.RESET)
