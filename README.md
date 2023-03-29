@@ -14,7 +14,7 @@ INSTALACION
 
 - git clone https://github.com/RealStrategy/CC-GENPRO4.git
 - cd CC-GENPRO4
-- python3 CC-GENPRO4
+- python3 ccgenpro4
 
 
 WEB V3.0 
