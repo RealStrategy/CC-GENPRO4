@@ -55,7 +55,7 @@ def generate_expiry_date():
 def generate_cvv():
     return str(random.randint(100, 999))
 
-card_type = input("Escoger el tipo de tarjeta (visa, mastercard, amex, discover o diners): ")
+card_type = input("Escoger tipo de tarjeta (visa, mastercard, amex, discover o diners): ")
 num_cards = int(input("Escoger cantidad a generar: "))
 
 card_details = []
