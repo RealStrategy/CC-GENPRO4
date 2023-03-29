@@ -86,18 +86,14 @@ def main():
                 
             input("Presione Enter para continuar...")
         elif option == "2":
-            os.system('clear')
             os.system('python3 .gencc.py')
             input("Presione Enter para continuar...")
         elif option == "3":
-            os.system('clear')
             print("Ingresando al Generador de Nombres y Apellidos...")
             time.sleep(1)
             os.system('cd Nombres ; python3 generador')
             input("Presione Enter para continuar...")
         elif option == "4":
-            os.system('clear')
-            print("Ingresando al checker...")
             os.system('python3 .checker.py')
             input("Presione Enter para continuar...")    
         elif option == "5":
