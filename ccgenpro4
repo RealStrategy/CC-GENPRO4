@@ -6,7 +6,7 @@ from colorama import init, Fore, Back, Style
 init(autoreset=True)
 def generate_credit_card_number(bin_format):
     out_cc = ""
-
+    # Sustituir x por numeros
     for i in range(15):
         if bin_format[i] in ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"):
             out_cc += bin_format[i]
@@ -44,35 +44,35 @@ def card_luhn_checksum_is_valid(card_number):
 def main():
     while True:
         os.system('clear')
-        print("********************************************")
-        print("*        *         CC-GENPRO V4.0          *")
-        print("*        *                                 *")
-        print("*  VISA  *       1234 5670 3192 00356      *")
-        print("*        *                                 *")
-        print("*        *           Alan Brito            *")
-        print("*        *           05/26                 *")
-        print("*        *                                 *")
-        print("********************************************")
-        print(Fore.RED + "1." + Fore.GREEN + " Generador de CC por BIN" + Fore.RESET)
-        print(Fore.RED + "2." + Fore.GREEN + " Generador de tarjetas de Credito" + Fore.RESET)
-        print(Fore.RED + "3." + Fore.GREEN + " Generador Nombres y apellidos" + Fore.RESET)
-        print(Fore.RED + "4." + Fore.GREEN + " Checker Bin - Bank - Country" + Fore.RESET)
-        print(Fore.RED + "5." + Fore.GREEN + " Mas informacion del script" + Fore.RESET)
-        print(Fore.RED + "6." + Fore.GREEN + " Salir del menu script" + Fore.RESET)
+        print("**************************************")
+        print("*        *      CC-GENPRO V4.0       *")
+        print("*        *                           *")
+        print("*  VISA  *    1234 5672 9032 0036    *")
+        print("*        *                           *")
+        print("*        *        Alan Brito         *")
+        print("*        *          05/26            *")
+        print("*        *                           *")
+        print("**************************************")
+        print(Fore.RED + "1." + Fore.GREEN + " Generador de Tarjetas por BIN" + Fore.RESET)
+        print(Fore.RED + "2." + Fore.GREEN + " Generador de CC (Visa, Mc...)" + Fore.RESET)
+        print(Fore.RED + "3." + Fore.GREEN + " Generador Nombres y Apellidos" + Fore.RESET)
+        print(Fore.RED + "4." + Fore.GREEN + " Checker BIN completo all" + Fore.RESET)
+        print(Fore.RED + "5." + Fore.GREEN + " Mas Informacion de CC-GENPRO" + Fore.RESET)
+        print(Fore.RED + "6." + Fore.GREEN + " Salir del menu" + Fore.RESET)
         print("")
         option = input("Seleccione una opción: ")
         print("")
         if option == "1":
             bin_format = input("Ingrese BIN: ")
             try:
-                n = int(input("Ingrese cantidad: "))
-                month = int(input("Ingrese mes: "))
-                year = int(input("Ingrese año: "))
+                month = int(input("Ingrese Mes: "))
+                year = int(input("Ingrese Año: "))
+                n = int(input("Ingrese Cantidad: "))
                     
                 for i in range(n):
                     cc_number = generate_credit_card_number(bin_format)
                     cvv = str(random.randint(100, 999))
-                    amount = str(random.randint(1, 10000))
+                    amount = str(random.randint(1, 20000))
                     date = f"{month}/{year % 100}"
                     
                     print(f"\nTarjeta de credito: {Fore.GREEN}{cc_number}{Fore.RESET}")
