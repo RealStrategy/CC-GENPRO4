@@ -16,10 +16,13 @@ INSTALACION
 - cd CC-GENPRO4
 - python3 CC-GENPRO4
 
-WEB V3.0 - [Open Here](https://cc-genpro.com)
+
+WEB V3.0 
+- [Open Here](https://cc-genpro.com)
 
 ---
 
 # Dev: @RealStrategy
 # Date: 19/03/2023
 # Telegram: https://t.me/ccgenpro
+# Youtube: https://www.youtube.com/@zonatodoreal
