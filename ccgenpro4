@@ -47,7 +47,7 @@ def main():
         print("**************************************")
         print("*        *      CC-GENPRO V4.0       *")
         print("*        *                           *")
-        print("*  VISA  *    1234 5672 9032 0036    *")
+        print("*  VISA  *    1234 5678 1510 2306    *")
         print("*        *                           *")
         print("*        *       Real Strategy       *")
         print("*        *          05/26            *")
