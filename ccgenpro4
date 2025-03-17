@@ -100,7 +100,7 @@ def main():
              print(Fore.RED + "CREADOR:" + Fore.GREEN + " @RealStrategy" + Fore.RESET)
              print(Fore.RED + "FECHA:" + Fore.GREEN + " 19/03/2023" + Fore.RESET)
              print(Fore.RED + "WEB 3.0:" + Fore.GREEN + " https://cc-genpro.com/" + Fore.RESET)
-             print(Fore.RED + "TELEGRAM:" + Fore.GREEN + " https://t.me/ccgenpro" + Fore.RESET)
+             print(Fore.RED + "TELEGRAM:" + Fore.GREEN + " https://t.me/ccgenpro1" + Fore.RESET)
              print(Fore.RED + "GITHUB:" + Fore.GREEN + " https://github.com/RealStrategy" + Fore.RESET)
              print(Fore.RED + "YOUTUBE:" + Fore.GREEN + " https://www.youtube.com/@zonatodoreal" + Fore.RESET)
              print("")
